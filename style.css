@@ -1,4 +1,48 @@
+body {
+    background: black;
+}
+
 .card-deck {
     width: 80%;
     margin: 0 auto;
 }
+
+.card-body {
+  /* opacity: .001; */
+  background: black;
+}
+
+.card {
+    border: none;
+    color: white; 
+    background: black;
+}
+
+.card-img {
+    width: 75%;
+    height: 40rem;
+    margin: 0 auto;
+    opacity: .5;
+}
+
+.info h1, .info h3 {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.contact-form h1, .contact-form p, .contact-form h2, .contact-form label {
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    .info h1 {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .card-img {
+      height: 20rem;
+    }
+  }
