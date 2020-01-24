@@ -58,7 +58,7 @@ a  {
     .carousel-item h1 {
       font-size: 25px;
     }
-    .carousel-item h5, .carousel-item p {
+    .carousel-item h3 {
       font-size: 13px;
     }
   }
